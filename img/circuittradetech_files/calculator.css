@@ -1,0 +1,137 @@
+.calc-bg .cal-bg .calbg {
+    padding: 15px 0px 0px 0px;
+}
+
+.calc-bg .cal-bg .calbg ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.calc-bg .cal-bg .calbg ul li {
+    display: inline-block;
+    padding: 7px 0px;
+    margin: 0.15em;
+    width: 19%;
+}
+
+.calc-bg .cal-bg .calbg ul li .cal1 {
+    margin: 0px auto 0px;
+}
+
+.calc-bg .cal-bg .calbg ul li .cal1 .cal-title {
+    font-size: 20px;
+    color: #97a6a5;
+    font-weight: 500;
+    background: transparent;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.calc-bg .cal-bg .calbg ul li .cal1 .cal-invest {
+    background: transparent;
+}
+
+.calc-bg .cal-bg .calbg ul li .cal1 .cal-invest input {
+    font-size: 20px;
+    color: #1262ff;
+    height: 40px;
+    width: 95%;
+    border: 1px solid #1262ff;
+    background: #1e2028;
+    outline: none;
+    padding: 0px 20px;
+    font-weight: 500;
+    box-shadow: none !important;
+}
+
+.calc-bg .cal-bg .calbg ul li .cal2 .cal-invest input {
+    font-size: 20px;
+    color: #1262ff;
+    height: 40px;
+    width: 95%;
+    border: 1px solid #1262ff;
+    background: #1e2028;
+    outline: none;
+    padding: 0px 32px;
+    font-weight: 500;
+    border-radius: 0px;
+    border-left: none;
+}
+
+.calc-bg .cal-bg .calbg ul li .cal2 .cal-invest p {
+    padding: 8px 17px;
+    font-size: 18px;
+    color: #1262ff;
+    font-weight: 500;
+    border-radius: 6px;
+    display: inline-block !important;
+    position: relative;
+    float: left;
+    margin-top: -39px;
+}
+
+.calc-bg .cal-bg .calbg ul li .cal2 .cal-invest select {
+    font-size: 20px;
+    color: #1262ff;
+    height: 40px;
+    width: 95%;
+    border: 1px solid #1262ff;
+    background: #1e2028;
+    outline: none;
+    padding: 0px 10px;
+    font-weight: 500;
+    box-shadow: none !important;
+}
+
+.calc-ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plan-left {
+    font-size: 20px;
+    color: #ffffff;
+    height: 40px;
+    /* width: 95%; */
+    border: 1px solid #1262ff;
+    background: #1e2028;
+    outline: none;
+    padding: 0px 10px;
+    font-weight: 500;
+    box-shadow: none !important;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.cal2 {
+    display: flex;
+}
+
+.cal1 {
+    display: flex;
+}
+
+.calbg {
+    background: linear-gradient(45deg, rgba(9, 53, 101, 0) 3%, rgb(38 56 94) 3%, rgba(6, 36, 75, 1) 48%, rgb(38 56 94) 97%, rgba(9, 60, 120, 0) 97%);
+    padding: 15px 5px !important;
+}
+
+@media (max-width: 991px) {
+    .calc-bg .cal-bg .calbg ul li {
+        width: 33%;
+    }
+}
+
+@media (max-width: 575px) {
+    .calc-bg .cal-bg .calbg ul li {
+        width: 75%;
+    }
+}
+
+.plan-big {
+    font-size: 24px;
+    color: #1588f0;
+}
