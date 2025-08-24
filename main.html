@@ -308,8 +308,15 @@
         <source src="img/circuittradetech.mp4" type="video/mp4" />
       </video>
       <div class="media__box">
-        <button onclick="playVideo()" class="media__btn">Play</button>
-        <button onclick="pauseVideo()" class="media__btn">Pause</button>
+        <button class="media__btn toggleBtn">
+          <svg class="icon playIcon">
+            <use xlink:href="img/sprite.svg#icon-play2"></use>
+          </svg>
+          <svg class="icon pauseIcon">
+            <use xlink:href="img/sprite.svg#icon-pause"></use>
+          </svg>
+        </button>
+
         <p class="media__text">
           Time: <span id="currentTime">0:00</span> /
           <span id="duration">0:00</span>

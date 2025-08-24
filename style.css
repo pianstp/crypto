@@ -8,6 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   /* background-color: #1d0543; */
   background-color: #1a212f;
+
   font-size: 65%;
 }
 header {
@@ -71,9 +72,11 @@ header {
 }
 .space {
   margin-right: 29px;
+  font-size: 18px;
 }
 .spaces {
   margin-left: 1.4rem;
+  font-size: 18px;
 }
 .title {
   padding: 5px;
@@ -104,7 +107,7 @@ header {
   border-radius: 6px;
   color: #353c56;
   font-family: "Work Sans";
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   width: 48%;
   height: 3rem;
@@ -124,7 +127,7 @@ header {
   border-radius: 6px;
   color: #353c56;
   font-family: "Work Sans";
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 400;
   width: 48%;
   height: 2.2rem;
@@ -142,6 +145,7 @@ header {
 .spaces_init {
   padding-top: 20px;
   margin-right: -24rem;
+  font-size: 18px;
 }
 .form__id {
   display: flex;
@@ -168,6 +172,7 @@ header {
 }
 .box__input {
   color: #0460eb;
+  font-size: 18px;
 }
 
 .btn {
@@ -177,11 +182,12 @@ header {
   padding: 5px;
   width: 25rem;
   border-radius: 5px;
+  font-size: 18px;
 }
 .text {
   color: #545c77;
   font-family: "work Sans";
-  font-size: 15px;
+  font-size: 20px;
 }
 .text-1 {
   color: #545c77;
@@ -193,7 +199,7 @@ header {
 .link {
   text-decoration: none;
   color: #000;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
 }
 .link-1 {
@@ -398,20 +404,31 @@ footer {
   align-items: center;
 }
 .media__btn {
+  position: relative;
   border: none;
   background-color: #1a212f;
-  border: 1px solid #8e9bb4;
+  /* border: 1px solid #8e9bb4; */
   border-radius: 5px;
   width: 50px;
   height: 25px;
   color: #fff;
   font-size: 15px;
+  cursor: pointer;
   outline: none;
+}
+.media__btn svg {
+  position: absolute;
+  transition: opacity 0.3s ease;
+  margin-top: -3rem;
+}
+.pauseIcon {
+  display: none;
 }
 .media__text {
   color: #fff;
-  background-color: #1a212f;
+  background-color: transparent;
   font-size: 15px;
+  margin-top: -4.7rem;
 }
 .insight {
   display: block;
@@ -723,7 +740,7 @@ footer {
 .des {
   /* background-color: #1d0543; */
 
-  height: 600px;
+  height: 6a00px;
   width: 100%;
 }
 .des__con {
